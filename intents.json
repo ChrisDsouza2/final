@@ -1,0 +1,1703 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "what's up?",
+        "how is it going?"
+      ],
+      "responses": [
+        "Hello",
+        "Hey!",
+        "What can I do for you",
+        "How can I help you?"
+      ]
+    },
+    {
+      "tag": "color_avail_ls",
+      "patterns": [
+        "What are the available color options for the Loveseat sofa",
+        " Could you please list the color choices for the Loveseat sofa?",
+        "I'm interested in the Loveseat sofa. Can you tell me which colors it comes in?",
+        "What color selections are offered for the Loveseat sofa?",
+        "Are there different shades available for the Loveseat sofa?",
+        "I'd like to know the range of colors I can choose from for the Loveseat sofa."
+      ],
+      "responses": [
+        "Available colors are: Pastel, Pink Mint, Green ,Lavender ,Sky Blue and Peach"
+      ]
+    },
+    {
+      "tag": "color_avail_rs",
+      "patterns": [
+        "What are the available color options for the Reclining sofa",
+        " Could you please list the color choices for the Reclining sofa?",
+        "I'm interested in the Reclining sofa. Can you tell me which colors it comes in?",
+        "What color selections are offered for the Reclining sofa?",
+        "Are there different shades available for the Reclining sofa?",
+        "I'd like to know the range of colors I can choose from for the Reclining sofa."
+      ],
+      "responses": [
+        "Available colors are: Classic Black,Rich Espresso ,Distressed Brown, Creamy White and  Vintage Tan"
+      ]
+    },
+    {
+      "tag": "color_avail_sec",
+      "patterns": [
+        "What are the available color options for the Sectional sofa?",
+        "Could you please list the color choices for the Sectional sofa?",
+        "I'm interested in the Sectional sofa. Can you tell me which colors it comes in?",
+        "What color selections are offered for the Sectional sofa?",
+        "Are there different shades available for the Sectional sofa?",
+        "I'd like to know the range of colors I can choose from for the Sectional sofa."
+      ],
+      "responses": [
+        "Available colors are: Gray, Navy Blue, Beige, Charcoal, and Teal."
+      ]
+    },
+    {
+      "tag": "color_avail_chest",
+      "patterns": [
+        "What are the available color options for the Chesterfield sofa?",
+        "Could you please list the color choices for the Chesterfield sofa?",
+        "I'm interested in the Chesterfield sofa. Can you tell me which colors it comes in?",
+        "What color selections are offered for the Chesterfield sofa?",
+        "Are there different shades available for the Chesterfield sofa?",
+        "I'd like to know the range of colors I can choose from for the Chesterfield sofa."
+      ],
+      "responses": [
+        "Available colors are: Brown, Maroon, Rich Espresso, Cream, and Vintage Tan."
+      ]
+    },
+    {
+      "tag": "color_avail_mod",
+      "patterns": [
+        "What are the available color options for the Modern sofa?",
+        "Could you please list the color choices for the Modern sofa?",
+        "I'm interested in the Modern sofa. Can you tell me which colors it comes in?",
+        "What color selections are offered for the Modern sofa?",
+        "Are there different shades available for the Modern sofa?",
+        "I'd like to know the range of colors I can choose from for the Modern sofa."
+      ],
+      "responses": [
+        "Available colors are: Gray, White, Black, Blue, and Red."
+      ]
+    },
+    {
+      "tag": "material_avail_ls",
+      "patterns": [
+        "What are the available materials for the Loveseat sofa?",
+        "Could you please list the material options for the Loveseat sofa?",
+        "I'm interested in the Loveseat sofa. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Loveseat sofa?",
+        "Are there different upholstery choices available for the Loveseat sofa?",
+        "I'd like to know the range of materials I can choose from for the Loveseat sofa."
+      ],
+      "responses": [
+        "Available fabric options are : Fabric, Leather, Microfiber, Velvet, and Linen."
+      ]
+    },
+    {
+      "tag": "material_avail_rs",
+      "patterns": [
+        "What are the available materials for the Reclining sofa?",
+        "Could you please list the material options for the Reclining sofa?",
+        "I'm interested in the Reclining sofa. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Reclining sofa?",
+        "Are there different upholstery choices available for the Reclining sofa?",
+        "I'd like to know the range of materials I can choose from for the Reclining sofa."
+      ],
+      "responses": [
+        "Available fabric options  are: Leather, Faux Leather, Microfiber, Chenille, and Suede."
+      ]
+    },
+    {
+      "tag": "material_avail_sec",
+      "patterns": [
+        "What are the available materials for the Sectional sofa?",
+        "Could you please list the material options for the Sectional sofa?",
+        "I'm interested in the Sectional sofa. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Sectional sofa?",
+        "Are there different upholstery choices available for the Sectional sofa?",
+        "I'd like to know the range of materials I can choose from for the Sectional sofa."
+      ],
+      "responses": [
+        "Available fabric options are: Fabric, Leather, Velvet, Suede, and Microfiber."
+      ]
+    },
+    {
+      "tag": "material_avail_chest",
+      "patterns": [
+        "What are the available materials for the Chesterfield sofa?",
+        "Could you please list the material options for the Chesterfield sofa?",
+        "I'm interested in the Chesterfield sofa. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Chesterfield sofa?",
+        "Are there different upholstery choices available for the Chesterfield sofa?",
+        "I'd like to know the range of materials I can choose from for the Chesterfield sofa."
+      ],
+      "responses": [
+        "Available fabric options are:  Leather, Velvet, Fabric, Linen, and Faux Leather."
+      ]
+    },
+    {
+      "tag": "material_avail_mod",
+      "patterns": [
+        "What are the available materials for the Modern sofa?",
+        "Could you please list the material options for the Modern sofa?",
+        "I'm interested in the Modern sofa. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Modern sofa?",
+        "Are there different upholstery choices available for the Modern sofa?",
+        "I'd like to know the range of materials I can choose from for the Modern sofa."
+      ],
+      "responses": [
+        "Available fabric options are:  Leather, Fabric, Microfiber, Linen, and Velvet."
+      ]
+    },
+    {
+      "tag": "desc_avail_ls",
+      "patterns": [
+        "Can you provide a detailed description of the Loveseat sofa?",
+        "I'd like to know more about the Loveseat sofa.",
+        "Tell me about the features of the Loveseat sofa.",
+        "What is the Loveseat sofa known for?",
+        "Please give me a description of the Loveseat sofa."
+      ],
+      "responses": [
+        " The Loveseat sofa is a compact seating option designed to comfortably seat two people. It features a cozy design with plush cushioning and comes in a variety of materials and colors to suit your preferences. Its smaller size makes it ideal for smaller living spaces or as an addition to larger sofas."
+      ]
+    },
+    {
+      "tag": "desc_avail_rs",
+      "patterns": [
+        "Can you provide a detailed description of the Reclining sofa?",
+        "I'd like to know more about the Reclining sofa.",
+        "Tell me about the features of the Reclining sofa.",
+        "What is the Reclining sofa known for?",
+        "Please give me a description of the Reclining sofa."
+      ],
+      "responses": [
+        " The Reclining sofa is designed for ultimate relaxation. It features reclining seats that allow you to kick back and unwind with ease. Some models even come with built-in cup holders and storage compartments for added convenience. The Reclining sofa is available in a variety of materials and colors to match your style."
+      ]
+    },
+    {
+      "tag": "desc_avail_sec",
+      "patterns": [
+        "Can you provide a detailed description of the Sectional sofa?",
+        "I'd like to know more about the Sectional sofa.",
+        "Tell me about the features of the Sectional sofa.",
+        "What is the Sectional sofa known for?",
+        "Please give me a description of the Sectional sofa."
+      ],
+      "responses": [
+        "The Sectional sofa is a versatile seating option that can be customized to fit your space perfectly. It typically consists of multiple sections that can be arranged in various configurations, such as L-shape, U-shape, or as individual pieces. Sectional sofas are known for their spacious seating and are great for large living rooms or open-concept spaces. They come in a variety of materials and colors to match your decor."
+      ]
+    },
+    {
+      "tag": "desc_avail_chest",
+      "patterns": [
+        "Can you provide a detailed description of the Chesterfield sofa?",
+        "I'd like to know more about the Chesterfield sofa.",
+        "Tell me about the features of the Chesterfield sofa.",
+        "What is the Chesterfield sofa known for?",
+        "Please give me a description of the Chesterfield sofa."
+      ],
+      "responses": [
+        " The Chesterfield sofa is a classic and elegant option that features distinctive rolled arms and deep button tufting. It exudes a sense of timeless luxury and is often upholstered in rich leather or high-quality fabric. The Chesterfield sofa is known for its sophisticated design and is a statement piece in any room. It's available in a variety of materials and colors to suit your style."
+      ]
+    },
+    {
+      "tag": "desc_avail_mod",
+      "patterns": [
+        "Can you provide a detailed description of the Modern sofa?",
+        "I'd like to know more about the Modern sofa.",
+        "Tell me about the features of the Modern sofa.",
+        "What is the Modern sofa known for?",
+        "Please give me a description of the Modern sofa."
+      ],
+      "responses": [
+        " The Modern sofa is characterized by its clean lines, minimalist design, and often features sleek metal or wooden legs. It's a popular choice for those who appreciate a contemporary aesthetic and want to add a touch of modern style to their living space. The Modern sofa is available in a variety of materials and colors to match your decor and personal preferences."
+      ]
+    },
+    {
+      "tag": "dimensions_ls",
+      "patterns": [
+        "What are the dimensions of the Loveseat sofa?",
+        "Could you please provide the size of the Loveseat sofa?",
+        "Tell me the width, depth, and height of the Loveseat sofa.",
+        "I'd like to know the size of the Loveseat sofa.",
+        "Please give me the dimensions of the Loveseat sofa."
+      ],
+      "responses": [
+        " The dimensions of the Loveseat sofa typically range from 50 inches to 70 inches in width, 30 inches to 40 inches in depth, and 30 inches to 36 inches in height."
+      ]
+    },
+    {
+      "tag": "dimensions_rs",
+      "patterns": [
+        "What are the dimensions of the Reclining sofa?",
+        "Could you please provide the size of the Reclining sofa?",
+        "Tell me the width, depth, and height of the Reclining sofa.",
+        "I'd like to know the size of the Reclining sofa.",
+        "Please give me the dimensions of the Reclining sofa."
+      ],
+      "responses": [
+        " The dimensions of the Reclining sofa can vary, but they generally fall within the range of 75 inches to 90 inches in width, 35 inches to 42 inches in depth, and 38 inches to 42 inches in height."
+      ]
+    },
+    {
+      "tag": "dimensions_sec",
+      "patterns": [
+        "What are the dimensions of the Sectional sofa?",
+        "Could you please provide the size of the Sectional sofa?",
+        "Tell me the width, depth, and height of the Sectional sofa.",
+        "I'd like to know the size of the Sectional sofa.",
+        "Please give me the dimensions of the Sectional sofa."
+      ],
+      "responses": [
+        " The dimensions of the Sectional sofa can vary depending on the configuration, but common dimensions range from 100 inches to 150 inches in width, 80 inches to 120 inches in depth, and 30 inches to 36 inches in height."
+      ]
+    },
+    {
+      "tag": "dimensions_chest",
+      "patterns": [
+        "What are the dimensions of the Chesterfield sofa?",
+        "Could you please provide the size of the Chesterfield sofa?",
+        "Tell me the width, depth, and height of the Chesterfield sofa.",
+        "I'd like to know the size of the Chesterfield sofa.",
+        "Please give me the dimensions of the Chesterfield sofa."
+      ],
+      "responses": [
+        " The dimensions of the Chesterfield sofa typically range from 84 inches to 96 inches in width, 35 inches to 42 inches in depth, and 28 inches to 35 inches in height."
+      ]
+    },
+    {
+      "tag": "dimensions_mod",
+      "patterns": [
+        "What are the dimensions of the Modern sofa?",
+        "Could you please provide the size of the Modern sofa?",
+        "Tell me the width, depth, and height of the Modern sofa.",
+        "I'd like to know the size of the Modern sofa.",
+        "Please give me the dimensions of the Modern sofa."
+      ],
+      "responses": [
+        " The dimensions of the Modern sofa typically range from 70 inches to 90 inches in width, 30 inches to 36 inches in depth, and 28 inches to 32 inches in height."
+      ]
+    },
+    {
+      "tag": "fit_in_living_room_ls",
+      "patterns": [
+        "Will the Loveseat sofa fit in my living room?",
+        "Can the Loveseat sofa be accommodated in a small living room?",
+        "Is the Loveseat sofa suitable for a compact living space?",
+        "I have a small living room, can I place the Loveseat sofa in it?",
+        "Will the Loveseat sofa work in a limited space?"
+      ],
+      "responses": [
+        "The Loveseat sofa is a great choice for smaller living rooms or as an addition to larger sofas. Its dimensions typically range from 50 inches to 70 inches in width, 30 inches to 40 inches in depth, and 30 inches to 36 inches in height, making it suitable for compact spaces."
+      ]
+    },
+    {
+      "tag": "fit_in_living_room_rs",
+      "patterns": [
+        "Will the Reclining sofa fit in my living room?",
+        "Can the Reclining sofa be accommodated in a small living room?",
+        "Is the Reclining sofa suitable for a compact living space?",
+        "I have a small living room, can I place the Reclining sofa in it?",
+        "Will the Reclining sofa work in a limited space?"
+      ],
+      "responses": [
+        "The dimensions of the Reclining sofa can vary, but they generally fall within the range of 75 inches to 90 inches in width, 35 inches to 42 inches in depth, and 38 inches to 42 inches in height. It's essential to measure your living room space to ensure it can comfortably accommodate the Reclining sofa."
+      ]
+    },
+    {
+      "tag": "fit_in_living_room_sec",
+      "patterns": [
+        "Will the Sectional sofa fit in my living room?",
+        "Can the Sectional sofa be accommodated in a small living room?",
+        "Is the Sectional sofa suitable for a compact living space?",
+        "I have a small living room, can I place the Sectional sofa in it?",
+        "Will the Sectional sofa work in a limited space?"
+      ],
+      "responses": [
+        "The dimensions of the Sectional sofa can vary depending on the configuration, but common dimensions range from 100 inches to 150 inches in width, 80 inches to 120 inches in depth, and 30 inches to 36 inches in height. It's important to measure your living room and plan the layout to ensure the Sectional sofa fits comfortably."
+      ]
+    },
+    {
+      "tag": "fit_in_living_room_chest",
+      "patterns": [
+        "Will the Chesterfield sofa fit in my living room?",
+        "Can the Chesterfield sofa be accommodated in a small living room?",
+        "Is the Chesterfield sofa suitable for a compact living space?",
+        "I have a small living room, can I place the Chesterfield sofa in it?",
+        "Will the Chesterfield sofa work in a limited space?"
+      ],
+      "responses": [
+        "The Chesterfield sofa typically ranges from 84 inches to 96 inches in width, 35 inches to 42 inches in depth, and 28 inches to 35 inches in height. While it may fit well in larger living rooms, it's important to measure your space and consider the sofa's dimensions to ensure it fits comfortably."
+      ]
+    },
+    {
+      "tag": "fit_in_living_room_mod",
+      "patterns": [
+        "Will the Modern sofa fit in my living room?",
+        "Can the Modern sofa be accommodated in a small living room?",
+        "Is the Modern sofa suitable for a compact living space?",
+        "I have a small living room, can I place the Modern sofa in it?",
+        "Will the Modern sofa work in a limited space?"
+      ],
+      "responses": [
+        "The Modern sofa typically ranges from 70 inches to 90 inches in width, 30 inches to 36 inches in depth, and 28 inches to 32 inches in height. It's a versatile choice that can work well in various living room sizes, including smaller spaces. Be sure to measure your living room and plan the layout accordingly."
+      ]
+    },
+    {
+      "tag": "cushioning_ls",
+      "patterns": [
+        "What type of cushioning is used in the Loveseat sofa?",
+        "Tell me about the cushioning in the Loveseat sofa.",
+        "Can you describe the cushioning of the Loveseat sofa?",
+        "What kind of cushions does the Loveseat sofa have?",
+        "Please provide information about the cushioning in the Loveseat sofa."
+      ],
+      "responses": [
+        "The Loveseat sofa is typically equipped with plush cushioning that offers a comfortable and cozy seating experience. The specific type of cushioning can vary by brand and model but commonly includes high-density foam or a combination of foam and innerspring coils."
+      ]
+    },
+    {
+      "tag": "cushioning_rs",
+      "patterns": [
+        "What type of cushioning is used in the Reclining sofa?",
+        "Tell me about the cushioning in the Reclining sofa.",
+        "Can you describe the cushioning of the Reclining sofa?",
+        "What kind of cushions does the Reclining sofa have?",
+        "Please provide information about the cushioning in the Reclining sofa."
+      ],
+      "responses": [
+        "The cushioning in the Reclining sofa is designed for maximum comfort and support during relaxation. It typically includes high-density foam and may also feature pocketed coils or memory foam in some models. This combination ensures a comfortable and durable seating experience."
+      ]
+    },
+    {
+      "tag": "cushioning_sec",
+      "patterns": [
+        "What type of cushioning is used in the Sectional sofa?",
+        "Tell me about the cushioning in the Sectional sofa.",
+        "Can you describe the cushioning of the Sectional sofa?",
+        "What kind of cushions does the Sectional sofa have?",
+        "Please provide information about the cushioning in the Sectional sofa."
+      ],
+      "responses": [
+        "The Sectional sofa typically features a variety of cushioning options, including high-resilience foam, memory foam, or down-filled cushions, depending on the specific model and brand. This diversity allows you to choose the level of comfort that suits your preferences."
+      ]
+    },
+    {
+      "tag": "cushioning_chest",
+      "patterns": [
+        "What type of cushioning is used in the Chesterfield sofa?",
+        "Tell me about the cushioning in the Chesterfield sofa.",
+        "Can you describe the cushioning of the Chesterfield sofa?",
+        "What kind of cushions does the Chesterfield sofa have?",
+        "Please provide information about the cushioning in the Chesterfield sofa."
+      ],
+      "responses": [
+        "The Chesterfield sofa is known for its deep button-tufted backrest and traditionally features plush cushioning for a luxurious seating experience. It often includes high-density foam or down-filled cushions to provide both comfort and support."
+      ]
+    },
+    {
+      "tag": "cushioning_mod",
+      "patterns": [
+        "What type of cushioning is used in the Modern sofa?",
+        "Tell me about the cushioning in the Modern sofa.",
+        "Can you describe the cushioning of the Modern sofa?",
+        "What kind of cushions does the Modern sofa have?",
+        "Please provide information about the cushioning in the Modern sofa."
+      ],
+      "responses": [
+        "The Modern sofa typically incorporates high-density foam cushioning to offer a comfortable and supportive seating experience. It focuses on clean lines and minimalist design while ensuring that the cushions provide a balance of comfort and style."
+      ]
+    },
+    {
+      "tag": "seat_firmness_ls",
+      "patterns": [
+        "Are the seats of the Loveseat sofa firm or plush?",
+        "Can you describe the seat firmness of the Loveseat sofa?",
+        "Are the cushions on the Loveseat sofa comfortable?",
+        "I'd like to know if the Loveseat sofa has firm or plush seats.",
+        "Please provide information about the seat firmness of the Loveseat sofa."
+      ],
+      "responses": [
+        "The seats of the Loveseat sofa are typically designed to be plush and comfortable, providing a cozy and relaxed seating experience."
+      ]
+    },
+    {
+      "tag": "seat_firmness_rs",
+      "patterns": [
+        "Are the seats of the Reclining sofa firm or plush?",
+        "Can you describe the seat firmness of the Reclining sofa?",
+        "Are the cushions on the Reclining sofa comfortable?",
+        "I'd like to know if the Reclining sofa has firm or plush seats.",
+        "Please provide information about the seat firmness of the Reclining sofa."
+      ],
+      "responses": [
+        "The seats of the Reclining sofa are designed for maximum comfort and relaxation. They are typically plush and offer excellent cushioning for a soft and comfortable seating experience."
+      ]
+    },
+    {
+      "tag": "seat_firmness_sec",
+      "patterns": [
+        "Are the seats of the Sectional sofa firm or plush?",
+        "Can you describe the seat firmness of the Sectional sofa?",
+        "Are the cushions on the Sectional sofa comfortable?",
+        "I'd like to know if the Sectional sofa has firm or plush seats.",
+        "Please provide information about the seat firmness of the Sectional sofa."
+      ],
+      "responses": [
+        "The seats of the Sectional sofa can vary in firmness depending on the specific model and brand. You can find options with both firm and plush seats to suit your comfort preferences."
+      ]
+    },
+    {
+      "tag": "seat_firmness_chest",
+      "patterns": [
+        "Are the seats of the Chesterfield sofa firm or plush?",
+        "Can you describe the seat firmness of the Chesterfield sofa?",
+        "Are the cushions on the Chesterfield sofa comfortable?",
+        "I'd like to know if the Chesterfield sofa has firm or plush seats.",
+        "Please provide information about the seat firmness of the Chesterfield sofa."
+      ],
+      "responses": [
+        "The Chesterfield sofa is known for its plush and comfortable seats. The cushions are typically designed to provide a soft and luxurious seating experience, making them plush."
+      ]
+    },
+    {
+      "tag": "seat_firmness_mod",
+      "patterns": [
+        "Are the seats of the Modern sofa firm or plush?",
+        "Can you describe the seat firmness of the Modern sofa?",
+        "Are the cushions on the Modern sofa comfortable?",
+        "I'd like to know if the Modern sofa has firm or plush seats.",
+        "Please provide information about the seat firmness of the Modern sofa."
+      ],
+      "responses": [
+        "The seats of the Modern sofa are often designed to strike a balance between firmness and comfort. They provide adequate support while offering a comfortable seating experience."
+      ]
+    },
+    {
+      "tag": "leg_options_ls",
+      "patterns": [
+        "Does the Loveseat sofa come with different leg options?",
+        "Are there choices for the legs of the Loveseat sofa?",
+        "Can I customize the legs of the Loveseat sofa?",
+        "Tell me about the leg options for the Loveseat sofa.",
+        "I'd like to know if I can choose different legs for the Loveseat sofa."
+      ],
+      "responses": [
+        "Yes, the Loveseat sofa often offers various leg options that you can choose from to customize the appearance of your sofa. Common leg options include wooden legs in different finishes and styles."
+      ]
+    },
+    {
+      "tag": "leg_options_rs",
+      "patterns": [
+        "Does the Reclining sofa come with different leg options?",
+        "Are there choices for the legs of the Reclining sofa?",
+        "Can I customize the legs of the Reclining sofa?",
+        "Tell me about the leg options for the Reclining sofa.",
+        "I'd like to know if I can choose different legs for the Reclining sofa."
+      ],
+      "responses": [
+        "Yes, the Reclining sofa often offers various leg options that you can select to match your preferred style. These options may include different types of legs, such as wooden, metal, or plastic, in various finishes."
+      ]
+    },
+    {
+      "tag": "leg_options_sec",
+      "patterns": [
+        "Does the Sectional sofa come with different leg options?",
+        "Are there choices for the legs of the Sectional sofa?",
+        "Can I customize the legs of the Sectional sofa?",
+        "Tell me about the leg options for the Sectional sofa.",
+        "I'd like to know if I can choose different legs for the Sectional sofa."
+      ],
+      "responses": [
+        " The Sectional sofa often provides a range of leg options for customization. You can choose from various materials, finishes, and styles to complement your desired look for the sofa."
+      ]
+    },
+    {
+      "tag": "leg_options_chest",
+      "patterns": [
+        "Does the Chesterfield sofa come with different leg options?",
+        "Are there choices for the legs of the Chesterfield sofa?",
+        "Can I customize the legs of the Chesterfield sofa?",
+        "Tell me about the leg options for the Chesterfield sofa.",
+        "I'd like to know if I can choose different legs for the Chesterfield sofa."
+      ],
+      "responses": [
+        "Yes, the Chesterfield sofa often offers different leg options for customization. You can select from various leg styles, such as traditional turned legs or modern tapered legs, to suit your design preferences."
+      ]
+    },
+    {
+      "tag": "leg_options_mod",
+      "patterns": [
+        "Does the Modern sofa come with different leg options?",
+        "Are there choices for the legs of the Modern sofa?",
+        "Can I customize the legs of the Modern sofa?",
+        "Tell me about the leg options for the Modern sofa.",
+        "I'd like to know if I can choose different legs for the Modern sofa."
+      ],
+      "responses": [
+        "The Modern sofa often provides a range of leg options to match your desired aesthetic. You can choose from various materials and finishes, including metal, wood, or acrylic legs, to achieve the look you prefer."
+      ]
+    },
+    {
+      "tag": "price_and_discounts1",
+      "patterns": [
+        "What is the price of the Chesterfield sofa ?",
+        "Are there any ongoing discounts or promotions for Chesterfield sofa ?"
+      ],
+      "responses": [
+        "The price is 45000 and the available discount is 20 percent if you pay through credit card."
+      ]
+    },
+    {
+      "tag": "price_and_discounts2",
+      "patterns": [
+        "What is the price of the Modern sofa ?",
+        "Are there any ongoing discounts or promotions for Modern sofa?"
+      ],
+      "responses": [
+        "The price of the 50000 and the available discount is 20 percent if you pay through credit card."
+      ]
+    },
+    {
+      "tag": "price_and_discounts3",
+      "patterns": [
+        "What is the price of the Loveseat sofa ?",
+        "Are there any ongoing discounts or promotions for Loveseat sofa?"
+      ],
+      "responses": [
+        "The price is 30000 and the available discount is 20 percent if you pay through credit card."
+      ]
+    },
+    {
+      "tag": "price_and_discounts4",
+      "patterns": [
+        "What is the price of the reclining sofa ?",
+        "Are there any ongoing discounts or promotions for reclining sofa?"
+      ],
+      "responses": [
+        "The price is 70000 and the available discount is 20 percent if you pay through credit card."
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": [
+        "What are the shipping options and costs?"
+      ],
+      "responses": [
+        "We offer several shipping options, and costs vary based on your location and selected option. There is no shipping cost within 100 kilometres of radius. We also offer free shipping when the billing amounts exceeds one lakh."
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "What is your return policy?",
+        "Is there a warranty for your products?",
+        "How do I initiate a return for a damaged item?"
+      ],
+      "responses": [
+        "Our return policy allows returns within 15 days of purchase.",
+        "All our products come with a [warranty period] warranty.",
+        "To initiate a return for a damaged item, please [return process instructions]."
+      ]
+    },
+    {
+      "tag": "warranty",
+      "patterns": [
+        "Is there a warranty for your products?",
+        "How do I initiate a return for a damaged item?"
+      ],
+      "responses": [
+        "All our products come with a 1 year warranty."
+      ]
+    },
+    {
+      "tag": "damageproducts",
+      "patterns": [
+        "How do I initiate a return for a damaged item?"
+      ],
+      "responses": [
+        "You have to mail us the pictures of damaged items with ur ORDERID and the items would be picked up in 5-7 business days. The refund will be intiated in 9-10 days."
+      ]
+    },
+    {
+      "tag": "material_avail_rdt",
+      "patterns": [
+        "What are the available materials for the Rectangular Dining Table?",
+        "Could you please list the material options for the Rectangular Dining Table?",
+        "I'm interested in the Rectangular Dining Table. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Rectangular Dining Table?",
+        "Are there different upholstery choices available for the Rectangular Dining Table?",
+        "I'd like to know the range of materials I can choose from for the Rectangular Dining Table."
+      ],
+      "responses": [
+        "Available options are:  Solid Wood, glasds and metal"
+      ]
+    },
+    {
+      "tag": "material_avail_rpt",
+      "patterns": [
+        "What are the available materials for the Round Pedestal Table ?",
+        "Could you please list the material options for the Round Pedestal Table?",
+        "I'm interested in the Round Pedestal Table. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Round Pedestal Table?",
+        "Are there different upholstery choices available for the Round Pedestal Table?",
+        "I'd like to know the range of materials I can choose from for the Round Pedestal Table."
+      ],
+      "responses": [
+        "Available options are:  Reclaimed wood , Metal "
+      ]
+    },
+    {
+      "tag": "material_avail_tdt",
+      "patterns": [
+        "What are the available materials for the Glass Top Dining Table?",
+        "Could you please list the material options for the Glass Top Dining Table?",
+        "I'm interested in the Glass Top Dining Table. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Glass Top Dining Table?",
+        "Are there different upholstery choices available for the Glass Top Dining Table?",
+        "I'd like to know the range of materials I can choose from for the Glass Top Dining Table."
+      ],
+      "responses": [
+        "Available options are:  Tempered Glass, Chrome "
+      ]
+    },
+    {
+      "tag": "material_avail_chpt",
+      "patterns": [
+        "What are the available materials for the Counter-Height Pub Table",
+        "Could you please list the material options for the Counter-Height Pub Table?",
+        "I'm interested in the Counter-Height Pub Table. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Counter-Height Pub Table?",
+        "Are there different upholstery choices available for the Counter-Height Pub Table?",
+        "I'd like to know the range of materials I can choose from for the Counter-Height Pub Table."
+      ],
+      "responses": [
+        "Available options are:  Wood, Metal "
+      ]
+    },
+    {
+      "tag": "material_avail_mot",
+      "patterns": [
+        "What are the available materials for the Marble Oval Table ?",
+        "Could you please list the material options for the Marble Oval Table?",
+        "I'm interested in the Marble Oval Table. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Marble Oval Table?",
+        "Are there different upholstery choices available for the Marble Oval Table?",
+        "I'd like to know the range of materials I can choose from for the Marble Oval Table."
+      ],
+      "responses": [
+        "Available options are:  Marble, Stainless Steel  "
+      ]
+    },
+    {
+      "tag": "material_avail_eft",
+      "patterns": [
+        "What are the available materials for the Extendable Farmhouse Table ?",
+        "Could you please list the material options for the Extendable Farmhouse Table?",
+        "I'm interested in the Extendable Farmhouse Table. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Extendable Farmhouse Table?",
+        "Are there different upholstery choices available for the Extendable Farmhouse Table?",
+        "I'd like to know the range of materials I can choose from for the Extendable Farmhouse Table."
+      ],
+      "responses": [
+        "Available options are:  Marble, Stainless Steel  "
+      ]
+    },
+    {
+      "tag": "price_and_discountsd6",
+      "patterns": [
+        "What is the price of the Rectangular Dining Table ?",
+        "Are there any ongoing discounts or promotions for Rectangular Dining Table ?"
+      ],
+      "responses": [
+        "The price is 55000 and the available discount is 10 percent if you pay through credit card."
+      ]
+    },
+    {
+      "tag": "price_and_discountsd5",
+      "patterns": [
+        "What is the price of the Extendable Farmhouse Table ?",
+        "Are there any ongoing discounts or promotions for Extendable Farmhouse Table ?"
+      ],
+      "responses": [
+        "The price is 65000 and the available discount is 10 percent if you pay through credit card."
+      ]
+    },
+    {
+      "tag": "price_and_discountsd1",
+      "patterns": [
+        "What is the price of the Round Pedestal Table ?",
+        "Are there any ongoing discounts or promotions for Round Pedestal Table ?"
+      ],
+      "responses": [
+        "The price is 45000 and the available discount is 10 percent if you pay through credit card."
+      ]
+    },
+    {
+      "tag": "price_and_discountsd2",
+      "patterns": [
+        "What is the price of the Glass Top Dining Table ?",
+        "Are there any ongoing discounts or promotions for Glass Top Dining Table?"
+      ],
+      "responses": [
+        "The price of the 50000 and the available discount is 10 percent if you pay through credit card."
+      ]
+    },
+    {
+      "tag": "price_and_discountsd3",
+      "patterns": [
+        "What is the price of the Counter-Height Pub Table ?",
+        "Are there any ongoing discounts or promotions for Counter-Height Pub Table?"
+      ],
+      "responses": [
+        "The price is 35000 and the available discount is 10 percent if you pay through credit card."
+      ]
+    },
+    {
+      "tag": "price_and_discountsd4",
+      "patterns": [
+        "What is the price of the Marble Oval Table ?",
+        "Are there any ongoing discounts or promotions for Marble Oval Table?"
+      ],
+      "responses": [
+        "The price is 60000 and the available discount is 10 percent if you pay through credit card."
+      ]
+    },
+    {
+      "tag": "seating_capacity1",
+      "patterns": [
+        "How many people can Round Pedestal Table seat?",
+        "Tell me about the seating capacity of Round Pedestal Table.",
+        "What are the different seating options for your tables?"
+      ],
+      "responses": [
+        "It is 4-seater."
+      ]
+    },
+    {
+      "tag": "seating_capacity2",
+      "patterns": [
+        "How many people can Rectangular Dining Table seat?",
+        "Tell me about the seating capacity of Rectangular Dining Table.",
+        "What are the different seating options for your tables?"
+      ],
+      "responses": [
+        "It is 6-seater."
+      ]
+    },
+    {
+      "tag": "seating_capacity3",
+      "patterns": [
+        "How many people can Extendable Farmhouse Table seat?",
+        "Tell me about the seating capacity of Extendable Farmhouse Table.",
+        "What are the different seating options for your tables?"
+      ],
+      "responses": [
+        "It is 6-8 seater(extendable)."
+      ]
+    },
+    {
+      "tag": "seating_capacity4",
+      "patterns": [
+        "How many people can Glass Top Dining Table seat?",
+        "Tell me about the seating capacity of Glass Top Dining Table.",
+        "What are the different seating options for your tables?"
+      ],
+      "responses": [
+        "It is 8-seater."
+      ]
+    },
+    {
+      "tag": "seating_capacity5",
+      "patterns": [
+        "How many people can Counter-Height Pub Table seat?",
+        "Tell me about the seating capacity of Counter-Height Pub Table.",
+        "What are the different seating options for your tables?"
+      ],
+      "responses": [
+        "It is 2-seater."
+      ]
+    },
+    {
+      "tag": "seating_capacity6",
+      "patterns": [
+        "How many people can Marble Oval Table seat?",
+        "Tell me about the seating capacity of Marble Oval Table.",
+        "What are the different seating options for your tables?"
+      ],
+      "responses": [
+        "It is 6-seater."
+      ]
+    },
+    {
+      "tag": "material_avail_chairs1",
+      "patterns": [
+        "What are the available materials for the Accent Chair ?",
+        "Could you please list the material options for the Accent Chair?",
+        "I'm interested in the Accent Chair. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Accent Chair?",
+        "Are there different upholstery choices available for the Accent Chair?",
+        "I'd like to know the range of materials I can choose from for the Accent Chair."
+      ],
+      "responses": [
+        "Available options are:  Fabric, Wood "
+      ]
+    },
+    {
+      "tag": "material_avail_chairs2",
+      "patterns": [
+        "What are the available materials for the Leather Recliner ?",
+        "Could you please list the material options for the Leather Recliner?",
+        "I'm interested in the Leather Recliner. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Leather Recliner?",
+        "Are there different upholstery choices available for the Leather Recliner?",
+        "I'd like to know the range of materials I can choose from for the Leather Recliner."
+      ],
+      "responses": [
+        "Available options are:  Leather, Metal "
+      ]
+    },
+    {
+      "tag": "material_avail_chairs3",
+      "patterns": [
+        "What are the available materials for the Eames Lounge Chair ?",
+        "Could you please list the material options for the Eames Lounge Chair?",
+        "I'm interested in the Eames Lounge Chair. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Eames Lounge Chair?",
+        "Are there different upholstery choices available for the Eames Lounge Chair?",
+        "I'd like to know the range of materials I can choose from for the Eames Lounge Chair."
+      ],
+      "responses": [
+        "Available options are:  Walnut, Leather "
+      ]
+    },
+    {
+      "tag": "material_avail_chairs4",
+      "patterns": [
+        "What are the available materials for the Swivel Armchair ?",
+        "Could you please list the material options for the Swivel Armchair?",
+        "I'm interested in the Swivel Armchair. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Swivel Armchair?",
+        "Are there different upholstery choices available for the Swivel Armchair?",
+        "I'd like to know the range of materials I can choose from for the Swivel Armchair."
+      ],
+      "responses": [
+        "Available options are:  Fabric, Metal "
+      ]
+    },
+    {
+      "tag": "material_avail_chairs5",
+      "patterns": [
+        "What are the available materials for the Wingback Chair ?",
+        "Could you please list the material options for the Wingback Chair?",
+        "I'm interested in the Wingback Chair. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Wingback Chair?",
+        "Are there different upholstery choices available for the Wingback Chair?",
+        "I'd like to know the range of materials I can choose from for the Wingback Chair."
+      ],
+      "responses": [
+        "Available options are:  Linen, Wood "
+      ]
+    },
+    {
+      "tag": "material_avail_chairs6",
+      "patterns": [
+        "What are the available materials for the Rocking Chair ?",
+        "Could you please list the material options for the Rocking Chair?",
+        "I'm interested in the Rocking Chair. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Rocking Chair?",
+        "Are there different upholstery choices available for the Rocking Chair?",
+        "I'd like to know the range of materials I can choose from for the Rocking Chair."
+      ],
+      "responses": [
+        "Available options are:  Fabric, Wood "
+      ]
+    },
+    {
+      "tag": "material_avail_chairs7",
+      "patterns": [
+        "What are the available materials for the Chaise Lounge ?",
+        "Could you please list the material options for the Chaise Lounge?",
+        "I'm interested in the Chaise Lounge. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Chaise Lounge?",
+        "Are there different upholstery choices available for the Chaise Lounge?",
+        "I'd like to know the range of materials I can choose from for the Chaise Lounge."
+      ],
+      "responses": [
+        "Available options are:  Velvet, Lounge "
+      ]
+    },
+    {
+      "tag": "material_avail_chairs8",
+      "patterns": [
+        "What are the available materials for the Outdoor Patio Chair ?",
+        "Could you please list the material options for the Outdoor Patio Chair?",
+        "I'm interested in the Outdoor Patio Chair. Can you tell me which materials it comes in?",
+        "What material selections are offered for the Outdoor Patio Chair?",
+        "Are there different upholstery choices available for the Outdoor Patio Chair?",
+        "I'd like to know the range of materials I can choose from for the Outdoor Patio Chair."
+      ],
+      "responses": [
+        "Available options are:  Wicker, Aluminium "
+      ]
+    },
+    {
+      "tag": "pricing_chairs1",
+      "patterns": [
+        "What is the pricing for Accent Chair?",
+        "Can you provide information about the cost of Accent Chair?",
+        "Tell me about the price ranges for Accent Chair."
+      ],
+      "responses": [
+        "The price is 15000 and there are no discoubt for chairs."
+      ]
+    },
+    {
+      "tag": "pricing_chairs1",
+      "patterns": [
+        "What is the pricing for Leather Recliner?",
+        "Can you provide information about the cost of Leather Recliner?",
+        "Tell me about the price ranges for Leather Recliner."
+      ],
+      "responses": [
+        "The price is 30000 and there are no discoubt for chairs."
+      ]
+    },
+    {
+      "tag": "pricing_chairs1",
+      "patterns": [
+        "What is the pricing for Eames Lounge Chair?",
+        "Can you provide information about the cost of Eames Lounge Chair?",
+        "Tell me about the price ranges for Eames Lounge Chair."
+      ],
+      "responses": [
+        "The price is 25000 and there are no discoubt for chairs."
+      ]
+    },
+    {
+      "tag": "pricing_chairs1",
+      "patterns": [
+        "What is the pricing for Swivel Armchair?",
+        "Can you provide information about the cost of Swivel Armchair?",
+        "Tell me about the price ranges for Swivel Armchair."
+      ],
+      "responses": [
+        "The price is 20000 and there are no discoubt for chairs."
+      ]
+    },
+    {
+      "tag": "pricing_chairs1",
+      "patterns": [
+        "What is the pricing for Wingback Chair?",
+        "Can you provide information about the cost of Wingback Chair?",
+        "Tell me about the price ranges for Wingback Chair."
+      ],
+      "responses": [
+        "The price is 19000 and there are no discoubt for chairs."
+      ]
+    },
+    {
+      "tag": "pricing_chairs1",
+      "patterns": [
+        "What is the pricing for Rocking Chair?",
+        "Can you provide information about the cost of Rocking Chair?",
+        "Tell me about the price ranges for Rocking Chair."
+      ],
+      "responses": [
+        "The price is 10000 and there are no discoubt for chairs."
+      ]
+    },
+    {
+      "tag": "pricing_chairs1",
+      "patterns": [
+        "What is the pricing for Chaise Lounge?",
+        "Can you provide information about the cost of Chaise Lounge?",
+        "Tell me about the price ranges for Chaise Lounge."
+      ],
+      "responses": [
+        "The price is 12000 and there are no discoubt for chairs."
+      ]
+    },
+    {
+      "tag": "pricing_chairs1",
+      "patterns": [
+        "What is the pricing for Outdoor Patio Chair?",
+        "Can you provide information about the cost of Outdoor Patio Chair?",
+        "Tell me about the price ranges for Outdoor Patio Chair."
+      ],
+      "responses": [
+        "The price is 8000 and there are no discoubt for chairs."
+      ]
+    },
+    {
+      "tag": "wardrobe_material1",
+      "patterns": [
+        "What materials are used for Modern Sliding Wardrobe?",
+        "Tell me about the material options for Modern Sliding Wardrobe.",
+        "Can you describe the Modern Sliding Wardrobe?"
+      ],
+      "responses": [
+        "Available options are : Mirror, MDF, Aluminium. "
+      ]
+    },
+    {
+      "tag": "wardrobe_material2",
+      "patterns": [
+        "What materials are used for Classic Wooden Wardrobe?",
+        "Tell me about the material options for Classic Wooden Wardrobe.",
+        "Can you describe the Classic Wooden Wardrobe?"
+      ],
+      "responses": [
+        "Available options are : Solid Wood, Brass "
+      ]
+    },
+    {
+      "tag": "wardrobe_material3",
+      "patterns": [
+        "What materials are used for Contemporary Mirrored Wardrobe?",
+        "Tell me about the material options for Contemporary Mirrored Wardrobe.",
+        "Can you describe the Contemporary Mirrored Wardrobe?"
+      ],
+      "responses": [
+        "Available options are : Mirror, Particle Board, Metal "
+      ]
+    },
+    {
+      "tag": "wardrobe_material4",
+      "patterns": [
+        "What materials are used for Built-In Wardrobe System?",
+        "Tell me about the material options for Built-In Wardrobe System.",
+        "Can you describe the Built-In Wardrobe System?"
+      ],
+      "responses": [
+        "Available options are : Laminated Particle Board, Aluminium "
+      ]
+    },
+    {
+      "tag": "wardrobe_features1",
+      "patterns": [
+        "What features do Modern Sliding Wardrobe have?",
+        "Tell me about the functionalities of Modern Sliding Wardrobe.",
+        "Can you describe the key features of Modern Sliding Wardrobe?"
+      ],
+      "responses": [
+        "The key features are : sliding doors, internal shelves, hanging rails"
+      ]
+    },
+    {
+      "tag": "wardrobe_features2",
+      "patterns": [
+        "What features do Classic Wooden Wardrobe have?",
+        "Tell me about the functionalities of Classic Wooden Wardrobe.",
+        "Can you describe the key features of Classic Wooden Wardrobe?"
+      ],
+      "responses": [
+        "The key features are : double doors, drawers, hanging space"
+      ]
+    },
+    {
+      "tag": "wardrobe_features3",
+      "patterns": [
+        "What features do Built-In Wardrobe System have?",
+        "Tell me about the functionalities of Built-In Wardrobe System.",
+        "Can you describe the key features of Built-In Wardrobe System?"
+      ],
+      "responses": [
+        "The key features are : drawer units, adjustable shelves, integrated lightings"
+      ]
+    },
+    {
+      "tag": "wardrobe_features4",
+      "patterns": [
+        "What features do Contemporary Mirrored Wardrobe have?",
+        "Tell me about the functionalities of Contemporary Mirrored Wardrobe.",
+        "Can you describe the key features of Contemporary Mirrored Wardrobe?"
+      ],
+      "responses": [
+        "The key features are : mirrored doors, internal drawers, shoe rack"
+      ]
+    },
+    {
+      "tag": "wardrobe_dimensions1",
+      "patterns": [
+        "What are the dimensions of the Modern Sliding Wardrobe?",
+        "Tell me about the size of the Modern Sliding Wardrobe.",
+        "What are the height, width, and depth of the Modern Sliding Wardrobe?"
+      ],
+      "responses": [
+        "The dimensions of the Modern Sliding Wardrobe are approximately 210cm in height, 150cm in width, and 60cm in depth."
+      ]
+    },
+    {
+      "tag": "wardrobe_dimensions2",
+      "patterns": [
+        "What are the dimensions of the Classic Wooden Wardrobe?",
+        "Tell me about the size of the Classic Wooden Wardrobe.",
+        "What are the height, width, and depth of the Classic Wooden Wardrobe?"
+      ],
+      "responses": [
+        "The dimensions of the Classic Wooden Wardrobe are approximately 200cm in height, 180cm in width, and 65cm in depth."
+      ]
+    },
+    {
+      "tag": "wardrobe_dimensions3",
+      "patterns": [
+        "What are the dimensions of the Built-In Wardrobe System?",
+        "Tell me about the size of the Built-In Wardrobe System.",
+        "What are the height, width, and depth of the Built-In Wardrobe System?"
+      ],
+      "responses": [
+        "The dimensions of the Built-In Wardrobe System are approximately 240cm in height, 200cm in width, and 60cm in depth."
+      ]
+    },
+    {
+      "tag": "wardrobe_dimensions4",
+      "patterns": [
+        "What are the dimensions of the Contemporary Mirrored Wardrobe?",
+        "Tell me about the size of the Contemporary Mirrored Wardrobe.",
+        "What are the height, width, and depth of the Contemporary Mirrored Wardrobe?"
+      ],
+      "responses": [
+        "The dimensions of the Contemporary Mirrored Wardrobe are approximately 220cm in height, 160cm in width, and 70cm in depth."
+      ]
+    },
+    {
+      "tag": "wardrobe_storage_capacity1",
+      "patterns": [
+        "What is the storage capacity of the Modern Sliding Wardrobe?",
+        "Tell me about the storage space in the Modern Sliding Wardrobe.",
+        "How much can the Modern Sliding Wardrobe store?"
+      ],
+      "responses": [
+        "The Modern Sliding Wardrobe has a large storage capacity with internal shelves and hanging rails."
+      ]
+    },
+    {
+      "tag": "wardrobe_storage_capacity2",
+      "patterns": [
+        "What is the storage capacity of the Classic Wooden Wardrobe?",
+        "Tell me about the storage space in the Classic Wooden Wardrobe.",
+        "How much can the Classic Wooden Wardrobe store?"
+      ],
+      "responses": [
+        "The Classic Wooden Wardrobe offers a large storage capacity, including double doors, drawers, and hanging space."
+      ]
+    },
+    {
+      "tag": "wardrobe_storage_capacity3",
+      "patterns": [
+        "What is the storage capacity of the Built-In Wardrobe System?",
+        "Tell me about the storage space in the Built-In Wardrobe System.",
+        "How much can the Built-In Wardrobe System store?"
+      ],
+      "responses": [
+        "The Built-In Wardrobe System provides a customizable storage capacity with drawer units, adjustable shelves, and integrated lighting."
+      ]
+    },
+    {
+      "tag": "wardrobe_storage_capacity4",
+      "patterns": [
+        "What is the storage capacity of the Contemporary Mirrored Wardrobe?",
+        "Tell me about the storage space in the Contemporary Mirrored Wardrobe.",
+        "How much can the Contemporary Mirrored Wardrobe store?"
+      ],
+      "responses": [
+        "The Contemporary Mirrored Wardrobe features a large storage capacity, including mirrored doors, internal drawers, and a shoe rack."
+      ]
+    },
+    {
+      "tag": "bookshelf_material1",
+      "patterns": [
+        "What materials are used in the Modern Open Bookshelf?",
+        "Tell me about the material of the Modern Open Bookshelf.",
+        "What is the Modern Open Bookshelf made of?"
+      ],
+      "responses": [
+        "The Modern Open Bookshelf is primarily crafted from wood and metal."
+      ]
+    },
+    {
+      "tag": "bookshelf_material2",
+      "patterns": [
+        "What materials are used in the Industrial Pipe Bookcase?",
+        "Tell me about the material of the Industrial Pipe Bookcase.",
+        "What is the Industrial Pipe Bookcase made of?"
+      ],
+      "responses": [
+        "The Industrial Pipe Bookcase is constructed with wood and steel materials."
+      ]
+    },
+    {
+      "tag": "bookshelf_material3",
+      "patterns": [
+        "What materials are used in the Classic Wooden Bookshelf?",
+        "Tell me about the material of the Classic Wooden Bookshelf.",
+        "What is the Classic Wooden Bookshelf made of?"
+      ],
+      "responses": [
+        "The Classic Wooden Bookshelf is made from high-quality solid wood."
+      ]
+    },
+    {
+      "tag": "bookshelf_material4",
+      "patterns": [
+        "What materials are used in the Corner Bookshelf?",
+        "Tell me about the material of the Corner Bookshelf.",
+        "What is the Corner Bookshelf made of?"
+      ],
+      "responses": [
+        "The Corner Bookshelf is constructed using MDF and laminate materials."
+      ]
+    },
+    {
+      "tag": "bookshelf_features1",
+      "patterns": [
+        "What features does the Modern Open Bookshelf have?",
+        "Tell me about the functionalities of the Modern Open Bookshelf.",
+        "Can you describe the key features of the Modern Open Bookshelf?"
+      ],
+      "responses": [
+        "The key features of the Modern Open Bookshelf include an open design and adjustable shelves."
+      ]
+    },
+    {
+      "tag": "bookshelf_features2",
+      "patterns": [
+        "What features does the Industrial Pipe Bookcase have?",
+        "Tell me about the functionalities of the Industrial Pipe Bookcase.",
+        "Can you describe the key features of the Industrial Pipe Bookcase?"
+      ],
+      "responses": [
+        "The key features of the Industrial Pipe Bookcase include a pipe frame and a distressed finish for an industrial look."
+      ]
+    },
+    {
+      "tag": "bookshelf_features3",
+      "patterns": [
+        "What features does the Classic Wooden Bookshelf have?",
+        "Tell me about the functionalities of the Classic Wooden Bookshelf.",
+        "Can you describe the key features of the Classic Wooden Bookshelf?"
+      ],
+      "responses": [
+        "The key features of the Classic Wooden Bookshelf include carved details and a sturdy construction with high-quality solid wood."
+      ]
+    },
+    {
+      "tag": "bookshelf_features4",
+      "patterns": [
+        "What features does the Corner Bookshelf have?",
+        "Tell me about the functionalities of the Corner Bookshelf.",
+        "Can you describe the key features of the Corner Bookshelf?"
+      ],
+      "responses": [
+        "The key features of the Corner Bookshelf include its ability to fit in corners and a space-saving design with six shelves."
+      ]
+    },
+    {
+      "tag": "bookshelf_dimensions1",
+      "patterns": [
+        "What are the dimensions of the Modern Open Bookshelf?",
+        "Tell me about the size of the Modern Open Bookshelf.",
+        "What are the height, width, and depth of the Modern Open Bookshelf?"
+      ],
+      "responses": [
+        "The dimensions of the Modern Open Bookshelf are approximately 180cm in height, 90cm in width, and 30cm in depth."
+      ]
+    },
+    {
+      "tag": "bookshelf_dimensions2",
+      "patterns": [
+        "What are the dimensions of the Industrial Pipe Bookcase?",
+        "Tell me about the size of the Industrial Pipe Bookcase.",
+        "What are the height, width, and depth of the Industrial Pipe Bookcase?"
+      ],
+      "responses": [
+        "The dimensions of the Industrial Pipe Bookcase are approximately 200cm in height, 120cm in width, and 40cm in depth."
+      ]
+    },
+    {
+      "tag": "bookshelf_dimensions3",
+      "patterns": [
+        "What are the dimensions of the Classic Wooden Bookshelf?",
+        "Tell me about the size of the Classic Wooden Bookshelf.",
+        "What are the height, width, and depth of the Classic Wooden Bookshelf?"
+      ],
+      "responses": [
+        "The dimensions of the Classic Wooden Bookshelf are approximately 150cm in height, 80cm in width, and 25cm in depth."
+      ]
+    },
+    {
+      "tag": "bookshelf_dimensions4",
+      "patterns": [
+        "What are the dimensions of the Corner Bookshelf?",
+        "Tell me about the size of the Corner Bookshelf.",
+        "What are the height, width, and depth of the Corner Bookshelf?"
+      ],
+      "responses": [
+        "The dimensions of the Corner Bookshelf are approximately 160cm in height, 60cm in width, and 60cm in depth."
+      ]
+    },
+    {
+      "tag": "bookshelf_price1",
+      "patterns": [
+        "What is the price of the Modern Open Bookshelf?",
+        "Tell me about the cost of the Modern Open Bookshelf.",
+        "How much does the Modern Open Bookshelf cost?"
+      ],
+      "responses": [
+        "The price of the Modern Open Bookshelf is 10,000."
+      ]
+    },
+    {
+      "tag": "bookshelf_price2",
+      "patterns": [
+        "What is the price of the Industrial Pipe Bookcase?",
+        "Tell me about the cost of the Industrial Pipe Bookcase.",
+        "How much does the Industrial Pipe Bookcase cost?"
+      ],
+      "responses": [
+        "The price of the Industrial Pipe Bookcase is 15,000."
+      ]
+    },
+    {
+      "tag": "bookshelf_price3",
+      "patterns": [
+        "What is the price of the Classic Wooden Bookshelf?",
+        "Tell me about the cost of the Classic Wooden Bookshelf.",
+        "How much does the Classic Wooden Bookshelf cost?"
+      ],
+      "responses": [
+        "The price of the Classic Wooden Bookshelf is 12,000."
+      ]
+    },
+    {
+      "tag": "bookshelf_price4",
+      "patterns": [
+        "What is the price of the Corner Bookshelf?",
+        "Tell me about the cost of the Corner Bookshelf.",
+        "How much does the Corner Bookshelf cost?"
+      ],
+      "responses": [
+        "The price of the Corner Bookshelf is 8,000."
+      ]
+    },
+    {
+      "tag": "wardrobe_price1",
+      "patterns": [
+        "What is the price of the Modern Sliding Wardrobe?",
+        "Tell me about the cost of the Modern Sliding Wardrobe.",
+        "How much does the Modern Sliding Wardrobe cost?"
+      ],
+      "responses": [
+        "The price of the Modern Sliding Wardrobe is 25,000."
+      ]
+    },
+    {
+      "tag": "wardrobe_price2",
+      "patterns": [
+        "What is the price of the Industrial Pipe Wardrobe?",
+        "Tell me about the cost of the Industrial Pipe Wardrobe.",
+        "How much does the Industrial Pipe Wardrobe cost?"
+      ],
+      "responses": [
+        "The price of the Industrial Pipe Wardrobe is 30,000."
+      ]
+    },
+    {
+      "tag": "wardrobe_price3",
+      "patterns": [
+        "What is the price of the Classic Wooden Wardrobe?",
+        "Tell me about the cost of the Classic Wooden Wardrobe.",
+        "How much does the Classic Wooden Wardrobe cost?"
+      ],
+      "responses": [
+        "The price of the Classic Wooden Wardrobe is 22,000."
+      ]
+    },
+    {
+      "tag": "wardrobe_price4",
+      "patterns": [
+        "What is the price of the Corner Wardrobe?",
+        "Tell me about the cost of the Corner Wardrobe.",
+        "How much does the Corner Wardrobe cost?"
+      ],
+      "responses": [
+        "The price of the Corner Wardrobe is 18,000."
+      ]
+    },
+    {
+      "tag": "table_material1",
+      "patterns": [
+        "What materials are used in the Modern Glass Side Table?",
+        "Tell me about the material of the Modern Glass Side Table.",
+        "What is the Modern Glass Side Table made of?"
+      ],
+      "responses": [
+        "The Modern Glass Side Table is primarily crafted from glass and metal."
+      ]
+    },
+    {
+      "tag": "table_material2",
+      "patterns": [
+        "What materials are used in the Wooden Rustic Side Table?",
+        "Tell me about the material of the Wooden Rustic Side Table.",
+        "What is the Wooden Rustic Side Table made of?"
+      ],
+      "responses": [
+        "The Wooden Rustic Side Table is made from wood and metal with distressed finishes for a rustic look."
+      ]
+    },
+    {
+      "tag": "table_material3",
+      "patterns": [
+        "What materials are used in the Oval Marble Coffee Table?",
+        "Tell me about the material of the Oval Marble Coffee Table.",
+        "What is the Oval Marble Coffee Table made of?"
+      ],
+      "responses": [
+        "The Oval Marble Coffee Table features a genuine marble top with a metal base."
+      ]
+    },
+    {
+      "tag": "table_material4",
+      "patterns": [
+        "What materials are used in the Glass Top Coffee Table with Storage?",
+        "Tell me about the material of the Glass Top Coffee Table with Storage.",
+        "What is the Glass Top Coffee Table with Storage made of?"
+      ],
+      "responses": [
+        "The Glass Top Coffee Table with Storage is crafted from glass, wood, and metal."
+      ]
+    },
+    {
+      "tag": "table_material5",
+      "patterns": [
+        "What materials are used in the Compact Folding Study Desk?",
+        "Tell me about the material of the Compact Folding Study Desk.",
+        "What is the Compact Folding Study Desk made of?"
+      ],
+      "responses": [
+        "The Compact Folding Study Desk is constructed with MDF and a steel frame for durability."
+      ]
+    },
+    {
+      "tag": "table_material6",
+      "patterns": [
+        "What materials are used in the Corner Office Desk?",
+        "Tell me about the material of the Corner Office Desk.",
+        "What is the Corner Office Desk made of?"
+      ],
+      "responses": [
+        "The Corner Office Desk is made with MDF, laminate, and metal for a modern design."
+      ]
+    },
+    {
+      "tag": "table_features1",
+      "patterns": [
+        "What features does the Modern Glass Side Table have?",
+        "Tell me about the functionalities of the Modern Glass Side Table.",
+        "Can you describe the key features of the Modern Glass Side Table?"
+      ],
+      "responses": [
+        "The key features of the Modern Glass Side Table include a glass top and a sleek metal frame."
+      ]
+    },
+    {
+      "tag": "table_features2",
+      "patterns": [
+        "What features does the Wooden Rustic Side Table have?",
+        "Tell me about the functionalities of the Wooden Rustic Side Table.",
+        "Can you describe the key features of the Wooden Rustic Side Table?"
+      ],
+      "responses": [
+        "The key features of the Wooden Rustic Side Table include a wooden top and metal legs with distressed finishes for a rustic appearance."
+      ]
+    },
+    {
+      "tag": "table_features3",
+      "patterns": [
+        "What features does the Oval Marble Coffee Table have?",
+        "Tell me about the functionalities of the Oval Marble Coffee Table.",
+        "Can you describe the key features of the Oval Marble Coffee Table?"
+      ],
+      "responses": [
+        "The key features of the Oval Marble Coffee Table include a genuine marble top and a sturdy metal base."
+      ]
+    },
+    {
+      "tag": "table_features4",
+      "patterns": [
+        "What features does the Glass Top Coffee Table with Storage have?",
+        "Tell me about the functionalities of the Glass Top Coffee Table with Storage.",
+        "Can you describe the key features of the Glass Top Coffee Table with Storage?"
+      ],
+      "responses": [
+        "The key features of the Glass Top Coffee Table with Storage include a glass top, a wooden storage compartment, and metal legs."
+      ]
+    },
+    {
+      "tag": "table_features5",
+      "patterns": [
+        "What features does the Compact Folding Study Desk have?",
+        "Tell me about the functionalities of the Compact Folding Study Desk.",
+        "Can you describe the key features of the Compact Folding Study Desk?"
+      ],
+      "responses": [
+        "The key features of the Compact Folding Study Desk include a folding design, a storage drawer, and a durable steel frame."
+      ]
+    },
+    {
+      "tag": "table_features6",
+      "patterns": [
+        "What features does the Corner Office Desk have?",
+        "Tell me about the functionalities of the Corner Office Desk.",
+        "Can you describe the key features of the Corner Office Desk?"
+      ],
+      "responses": [
+        "The key features of the Corner Office Desk include a corner design, storage shelves, and sleek metal legs."
+      ]
+    },
+    {
+      "tag": "table_price1",
+      "patterns": [
+        "What is the price of the Modern Glass Side Table?",
+        "Tell me about the cost of the Modern Glass Side Table.",
+        "How much does the Modern Glass Side Table cost?"
+      ],
+      "responses": [
+        "The price of the Modern Glass Side Table is 10000."
+      ]
+    },
+    {
+      "tag": "table_price2",
+      "patterns": [
+        "What is the price of the Wooden Rustic Side Table?",
+        "Tell me about the cost of the Wooden Rustic Side Table.",
+        "How much does the Wooden Rustic Side Table cost?"
+      ],
+      "responses": [
+        "The price of the Wooden Rustic Side Table is 12000."
+      ]
+    },
+    {
+      "tag": "table_price3",
+      "patterns": [
+        "What is the price of the Oval Marble Coffee Table?",
+        "Tell me about the cost of the Oval Marble Coffee Table.",
+        "How much does the Oval Marble Coffee Table cost?"
+      ],
+      "responses": [
+        "The price of the Oval Marble Coffee Table is 15000."
+      ]
+    },
+    {
+      "tag": "table_price4",
+      "patterns": [
+        "What is the price of the Glass Top Coffee Table with Storage?",
+        "Tell me about the cost of the Glass Top Coffee Table with Storage.",
+        "How much does the Glass Top Coffee Table with Storage cost?"
+      ],
+      "responses": [
+        "The price of the Glass Top Coffee Table with Storage is 18000."
+      ]
+    },
+    {
+      "tag": "table_price5",
+      "patterns": [
+        "What is the price of the Compact Folding Study Desk?",
+        "Tell me about the cost of the Compact Folding Study Desk.",
+        "How much does the Compact Folding Study Desk cost?"
+      ],
+      "responses": [
+        "The price of the Compact Folding Study Desk is 13000."
+      ]
+    },
+    {
+      "tag": "table_price6",
+      "patterns": [
+        "What is the price of the Corner Office Desk?",
+        "Tell me about the cost of the Corner Office Desk.",
+        "How much does the Corner Office Desk cost?"
+      ],
+      "responses": [
+        "The price of the Corner Office Desk is 16000."
+      ]
+    },
+    {
+      "tag": "table_dimensions1",
+      "patterns": [
+        "What are the dimensions of the Modern Glass Side Table?",
+        "Tell me about the size of the Modern Glass Side Table.",
+        "What are the height, width, and depth of the Modern Glass Side Table?"
+      ],
+      "responses": [
+        "The dimensions of the Modern Glass Side Table are approximately 50cm in height, 40cm in width, and 40cm in depth."
+      ]
+    },
+    {
+      "tag": "table_dimensions2",
+      "patterns": [
+        "What are the dimensions of the Wooden Rustic Side Table?",
+        "Tell me about the size of the Wooden Rustic Side Table.",
+        "What are the height, width, and depth of the Wooden Rustic Side Table?"
+      ],
+      "responses": [
+        "The dimensions of the Wooden Rustic Side Table are approximately 55cm in height, 35cm in width, and 35cm in depth."
+      ]
+    },
+    {
+      "tag": "table_dimensions3",
+      "patterns": [
+        "What are the dimensions of the Oval Marble Coffee Table?",
+        "Tell me about the size of the Oval Marble Coffee Table.",
+        "What are the height, width, and depth of the Oval Marble Coffee Table?"
+      ],
+      "responses": [
+        "The dimensions of the Oval Marble Coffee Table are approximately 40cm in height, 120cm in width, and 70cm in depth."
+      ]
+    },
+    {
+      "tag": "table_dimensions4",
+      "patterns": [
+        "What are the dimensions of the Glass Top Coffee Table with Storage?",
+        "Tell me about the size of the Glass Top Coffee Table with Storage.",
+        "What are the height, width, and depth of the Glass Top Coffee Table with Storage?"
+      ],
+      "responses": [
+        "The dimensions of the Glass Top Coffee Table with Storage are approximately 50cm in height, 100cm in width, and 60cm in depth."
+      ]
+    },
+    {
+      "tag": "table_dimensions5",
+      "patterns": [
+        "What are the dimensions of the Compact Folding Study Desk?",
+        "Tell me about the size of the Compact Folding Study Desk.",
+        "What are the height, width, and depth of the Compact Folding Study Desk?"
+      ],
+      "responses": [
+        "The dimensions of the Compact Folding Study Desk are approximately 75cm in height, 80cm in width, and 45cm in depth."
+      ]
+    },
+    {
+      "tag": "table_dimensions6",
+      "patterns": [
+        "What are the dimensions of the Corner Office Desk?",
+        "Tell me about the size of the Corner Office Desk.",
+        "What are the height, width, and depth of the Corner Office Desk?"
+      ],
+      "responses": [
+        "The dimensions of the Corner Office Desk are approximately 75cm in height, 120cm in width, and 90cm in depth."
+      ]
+    }
+  ]
+}
